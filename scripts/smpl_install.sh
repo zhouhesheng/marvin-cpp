@@ -86,3 +86,5 @@ function smpl_install() {
 		${script_dir}/install_openssl_default_cert_file.sh
 	fi
 }
+
+smpl_install
