@@ -60,7 +60,7 @@ source ./smpl_install
 # 	bash ${script_dir}/doctest_2.3.7.sh $1
 # 	bash ${script_dir}/catch2_v2.11.1.sh $1
 # 	bash ${script_dir}/nlohmann_json_3.7.3.sh $1
-# 	bash ${script_dir}/boost_1.71.0.sh $1
+# 	bash ${script_dir}/boost_1.72.0.sh $1
 # 	bash ${script_dir}/openssl_1.1.1.sh $1
 # 	bash ${script_dir}/http_parser.sh $1
 # 	bash ${script_dir}/simple_buffer.sh $1

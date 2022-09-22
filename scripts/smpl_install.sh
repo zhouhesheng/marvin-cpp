@@ -72,7 +72,7 @@ function smpl_install() {
 	smpl_run_one ${script_dir}/catch2_v2.11.1.sh $@
 	smpl_run_one ${script_dir}/cli11_v1.9.0.sh $@
 	smpl_run_one ${script_dir}/nlohmann_json_3.7.3.sh $@
-	smpl_run_one ${script_dir}/boost_1.71.0.sh $@
+	smpl_run_one ${script_dir}/boost_1.72.0.sh $@
 	smpl_run_one ${script_dir}/openssl_1.1.1.sh $@
 
 	smpl_run_one ${script_dir}/nodejs_http_parser.sh $@
