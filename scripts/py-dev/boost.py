@@ -10,7 +10,7 @@ from package import LibraryPackage
 
 package_name = "boost"
 boost_release = "1.72.0"
-package_url = "https://dl.bintray.com/boostorg/release/{}/source/boost_1_72_0.tar.gz".format(boost_release)
+package_url = "https://boostorg.jfrog.io/artifactory/main/release/{}/source/boost_1_72_0.tar.gz".format(boost_release)
 package_targz_file = "boost_1_72_0.tar.gz"
 
 

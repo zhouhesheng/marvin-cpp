@@ -214,7 +214,7 @@ boost_dump:
 
 .PHONY: boost_wget
 boost_wget:
-	https://dl.bintray.com/boostorg/release/1.72.0/source/boost_1_72_0.tar.gz
+	https://boostorg.jfrog.io/artifactory/main/release/1.72.0/source/boost_1_72_0.tar.gz
 	tar xvzf ${boost_name}.tar.gz 
 
 .PHONY: boost_install

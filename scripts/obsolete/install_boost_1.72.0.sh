@@ -18,7 +18,7 @@ function get_package {
 	cd ${clone_dir}
 	rm -rfv ${clone_dir}/${boost_targz_file}*
 	rm -rfv ${clone_dir}/${boost_name}
-	# wget https://dl.bintray.com/boostorg/release/${boost_release}/source/boost_1_72_0.tar.gz
+	# wget https://boostorg.jfrog.io/artifactory/main/release/${boost_release}/source/boost_1_72_0.tar.gz
 	wget ${boost_url}
 	tar xvzf ${boost_targz_file}
 	cd ${boost_name}
@@ -68,7 +68,7 @@ boost_targz_name=boost_1_72_0
 
 if [ "$1" == "help" ] ; then help; fi
 
-boost_url=https://dl.bintray.com/boostorg/release/${boost_release}/source/boost_1_72_0.tar.gz
+boost_url=https://boostorg.jfrog.io/artifactory/main/release/${boost_release}/source/boost_1_72_0.tar.gz
 boost_targz_file=boost_1_72_0.tar.gz
 pwd=`pwd`
 vendor=${pwd}/vendor
